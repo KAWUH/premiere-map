@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
+import SingleProduct from './SingleProduct'
 
 export default class Products extends Component {
   render() {
     return (
-      <div>Products</div>
+      <div className='products'>
+        <SingleProduct></SingleProduct> {/*TODO mechanism of showing every available product*/} 
+      </div>
     )
   }
 }
+
+
